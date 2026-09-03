@@ -1,0 +1,44 @@
+\section{Konstrukcja eksperymentu porównania metod planowania}\label{section_experiment}
+Oba wybrane algorytmy poza porównaniem między sobą będą porównywane do ustalonej wersji bazowej, którą będzie plan zadań uporządkowanych po priorytecie i terminie wykonania. (\ref{section_experiment_models_base})
+
+Oba modele są przetrenowane na próbie różnych użytkowników żeby nauczyć się podstawowych zasad: wyzszy priorytet wcześniej, nie przekraczać terminów - tak żeby zmniejszyć losowość na początku działania algorytmu ale nie uczyć jescze konkretnych profili.
+
+Dla każdego algorytmu plany są tworzone dla każdego uzytkownika osobno i zapisywane do bazy. Plany tworzone są na tydzień i aktualizowane 2 razy dziennie (NSGA) lub po każdym zadaniu (PPO) na koniec każdego dnia zbierane są miary. Ponowne uruchomienia w dzień są aby dostosować się do faktycznie wykonanych do tego momentu zadań i dostosować stan/oczekiwania na resztę dnia. Eksperyment przeprowadzany jest przez kilka tygodni roboczych żeby zweryfikować czy miary poprawiaja się w czasie (personalizacja).
+
+\subsection{Składowe elementy uwzględnione w eksperymencie}\label{section_experiment_elements}
+
+\subsection{Miary oceny}\label{section_experiment_measures}
+Proponowane miary:
+\begin{itemize}
+    \item efektywność harmonogramu - procent zakończonych zadań z wyznaczonych na dzień
+    \item uwzględnienie priorytetu - kary za przekroczenie terminu wykonania zadań z wyzszym priorytetem, proporcjonalnie
+    \item uwzględnienie poziomów energetycznych w ciągu dnia - czy zadania bardziej złożone, wymagające są w czasie wyższych poziomów energii i na odwrót
+    \item responsywność na zmiany - wpływ wprowadzenia zakłóceń na plan - czy zmienia się tylko najblizsze otoczenie i nie ma wielkiego wpływu na dalsze zadania - im mniej zmian tym lepiej
+\end{itemize}
+
+\subsection{Modelowanie funkcjonowania człowieka}\label{section_experiment_human}
+Symulowany będzie ciąg wykonania zadań na podstawie profilu danego użytkownika. Na podstawie ustalonego chronotypu użytkownik ma inną wydajność o różnych godzinach, a takze inny poziom umiejętności z róznych rodzajów zadań. To wszystko wpływa na to ile czasu zadanie będzie wykonywane i ile energii uzytkownika będzie zużywało.
+
+"Wykonanie" każdego zadania będzie polegało na obliczeniu "rzeczywistego" czasu wykonania zadania i zuzycia energii na podstawie wybranych warunków i podstawowych informacji o zadaniu. Wpływa na to wiele czynników jak m.in. dzień tygodnia, aktualny poziom energii, pora dnia, poziom umiejętności w danym typie zadania i same parametry zadania (średnie szacowane wartości czasu/energii).
+
+Modele dostają jedynie informację zwrotną o czasie zakończenia zadania, na podstawie czego mają wydedukować profil uzytkownika, jako że poziom energii wpływa na wydajność pracy.
+
+Dodatkowo w symulacji brane pod uwagę będą "przełączenia" między rodzajami zadań, jako że badania pokazują obniżenie produktywności przy częstych zmianach wykonywanych zadań, co wymaga doliczenia czasu na ich zakończenie.
+
+\textbf{Symulacja musi pozostać w wersji mocno uproszczonej względem realiów, ponieważ w rozważanym problemie faktycznie istnieje za dużo mozliwych czynników do przeanalizowania.}
+
+Drugi etap będzie działał na ostatniej wersji modelu dla uzytkownika i wprowadzał "zakłócenia" do weryfikacji stabilności planu - co się dzieje jak pojawia się takie zadanie z krótkim terminem przed końcem tych co już mamy?
+
+\subsection{Architektura modeli}\label{section_experiment_models}
+
+\subsubsection{Punkt odniesienia}\label{section_experiment_models_base}
+
+\subsubsection{Niezdominowany Algorytm Sortowania Genetycznego - \texttt{NSGAPlanner}}\label{section_experiment_models_NSGA}
+
+\subsubsection{Proximal Policy Optimization - \texttt{PPOPlanner}}\label{section_experiment_models_RL}
+
+\subsection{Plan eksperymentu}\label{section_experiment_plan}
+Tymczasowa prezentacja zamysłu pracy:
+
+%\figSAdjust{step1mgr.png}{Etap 1; źródło: opracowanie własne}{fig:step1}
+%\figSAdjust{step2mgr.png}{Etap 2; źródło: opracowanie własne}{fig:step2}

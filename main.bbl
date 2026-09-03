@@ -1,0 +1,1752 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{gap2024}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AY}{%
+         family={Ahmetoglu},
+         familyi={A\bibinitperiod},
+         given={Yoana},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Brumby},
+         familyi={B\bibinitperiod},
+         given={Duncan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cox},
+         familyi={C\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{Functionality Review, Literature Review, Personal Task Management,
+  Planning, Planning Fallacy, Time Management, To-Do List}
+    \strng{namehash}{AYBDCA1}
+    \strng{fullhash}{AYBDCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    Accurate time estimations are vital for meeting deadlines and reducing
+  work-related stress, yet individuals frequently succumb to a wide-spread
+  cognitive bias, the planning fallacy, resulting in poor time management. This
+  research article reports on two studies aimed at addressing this challenge.
+  First, through a review of the psychological literature, we identify four key
+  strategies recommended by research for supporting accurate time estimations
+  in daily tasks. These strategies serve as the foundation for the second
+  study, where we conduct a functionality analysis of prevalent personal task
+  management apps to investigate their alignment with the identified
+  strategies. Our analysis reveals a significant disparity: while
+  research-informed strategies are recommended, they are rarely implemented to
+  a good standard in current apps. This discrepancy emphasizes the importance
+  of addressing this gap between theory and practice. By highlighting the need
+  for future efforts to focus on aiding workers in task duration estimation,
+  this study identifies opportunities for improving the design of task
+  management software to enhance user productivity and alleviate stress.%
+    }
+    \verb{doi}
+    \verb 10.1145/3663384.3663404
+    \endverb
+    \field{title}{Bridging the Gap Between Time Management Research and Task
+  Management App Design: A Study on the Integration of Planning Fallacy
+  Mitigation Strategies}
+    \verb{url}
+    \verb https://doi.org/10.1145/3663384.3663404
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{JSHM2026}{article}{}
+    \name{author}{6}{}{%
+      {{hash=AJ}{%
+         family={An},
+         familyi={A\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Haibo},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Yunxiang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GX}{%
+         family={Gui},
+         familyi={G\bibinitperiod},
+         given={Xiaolin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=JX}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={Xiaolong},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \keyw{Deep reinforcement learning, Dynamic flexible job shop scheduling
+  problem, Manufacturing scheduling, Human-machine coordination}
+    \strng{namehash}{AJ+1}
+    \strng{fullhash}{AJCHZYGXHXJX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    The evolution of intelligent manufacturing has brought new challenges to
+  production scheduling, including human–machine resource coordination,
+  operator skill diversity, and dynamic task changes. To address these issues,
+  this paper proposes a dynamic scheduling framework with dual human–machine
+  resource constraints, integrating graph neural networks and deep
+  reinforcement learning to tackle task allocation and resource scheduling
+  separately. A Multi-Behavior Graph Convolutional Network (MBGCN) is
+  constructed to model factors such as operator skills, task complexity, and
+  preferences, enabling high-quality Person-Job matching. Additionally, a
+  Collective-Graph-Aware Double Deep Q Network (CGA-DDQN) is developed to
+  enhance decision-making under dynamic conditions. Preliminary experiments
+  demonstrate that the proposed approach achieves promising performance in task
+  adaptability, scheduling responsiveness, and resource coordination,
+  validating its potential in human–machine collaborative scheduling.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.neucom.2025.132213
+    \endverb
+    \field{issn}{0925-2312}
+    \field{pages}{132213}
+    \field{title}{JSHM: A dynamic flexible job-shop scheduling method with
+  human-machine collaboration}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0925231225028851
+    \endverb
+    \field{volume}{666}
+    \field{journaltitle}{Neurocomputing}
+    \field{year}{2026}
+  \endentry
+
+  \entry{PBTA4SM}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BY}{%
+         family={Bao},
+         familyi={B\bibinitperiod},
+         given={Yuguang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MX}{%
+         family={Ming},
+         familyi={M\bibinitperiod},
+         given={Xinguo},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xianyu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=TF}{%
+         family={Tao},
+         familyi={T\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Leng},
+         familyi={L\bibinitperiod},
+         given={Jiewu},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{Platform-based task assignment, Social manufacturing, Supply-demand
+  matching, Collaborative manufacturing, Democratized manufacturing}
+    \strng{namehash}{BY+1}
+    \strng{fullhash}{BYMXZXTFLJLY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Mass individualization is calling for a more sustainable manufacturing
+  paradigm which can address the paradoxes of diversity, complexity, and
+  affordability. Social Manufacturing (SM) represents a democratized
+  servitization trend trying to reshape the traditional production relationship
+  between consumers and manufacturers. To achieve the SM visions, new
+  operational mechanisms for SM should be constructed to overcome the
+  challenges of information sharing, accuracy, efficiency, security,
+  sovereignty, etc. The survey found that task assignment (TA) is one of the
+  foundational mechanisms for the implementation of regular autonomous
+  manufacturing systems, as well as the role of TA is further amplified for
+  distributed collaborative environments. Therefore, inspired by the relevant
+  research of management science, Platform-based Task Assignment (PBTA) is
+  proposed to distinguish and conceptualize this different research topic. In
+  SM platforms, the diverse capacities and resources can be shared, so that
+  knowing "who can do” and “select whom to do" is more important than
+  knowing "how to do". Furthermore, the studies on TA for SM present a
+  difference from the previous studies on TA in manufacturing. From a
+  perspective of supply-demand mapping, PBTA illustrates the foundational
+  operational mechanism for SM attracting many researchers’ attention from
+  different fields. Meanwhile, research on PBTA is also required for the
+  platform practices in the era of digital, shared, and platform economy. Given
+  the academic importance and practical value, this survey carefully selects
+  250 valuable research articles relevant to PBTA for SM. A novel workflow
+  model and knowledge framework, namely PBTA4SM, is proposed to identify and
+  organize the critical issues and challenges. This study shows the
+  state-of-the-art research advancement of PBTA including task design
+  considerations, modelling methods, typical engineering problems, algorithms,
+  decision patterns, key activities, and governance mechanisms. Finally, we
+  complete this holistic survey by highlighting eight potential directions for
+  future research in the Generative Artificial Intelligence (GAI) era.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jmsy.2024.12.007
+    \endverb
+    \field{issn}{0278-6125}
+    \field{pages}{328\bibrangedash 350}
+    \field{title}{Platform-based task assignment for social manufacturing
+  (PBTA4SM): State-of-the-art review and future directions}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0278612524003145
+    \endverb
+    \field{volume}{78}
+    \field{journaltitle}{Journal of Manufacturing Systems}
+    \field{year}{2025}
+  \endentry
+
+  \entry{TaskAllocation2024}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BA}{%
+         family={Baratta},
+         familyi={B\bibinitperiod},
+         given={Alessio},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cimino},
+         familyi={C\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Longo},
+         familyi={L\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mirabelli},
+         familyi={M\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=NL}{%
+         family={Nicoletti},
+         familyi={N\bibinitperiod},
+         given={Letizia},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{Human-Robot Collaboration, Fatigue, Ergonomics, Task Allocation}
+    \strng{namehash}{BA+1}
+    \strng{fullhash}{BACALFMGNL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    This paper delves into the transformative realm of Industry 4.0,
+  emphasizing the pivotal role of Human-Robot Collaboration (HRC) in redefining
+  manufacturing landscapes. Central to this revolution is the integration of
+  cyber-physical systems, automation, and the Internet of Things (IoT),
+  culminating in the advent of smart manufacturing. We explore how HRC fosters
+  a synergistic work environment, blurring the traditional boundaries between
+  human workers and robotic counterparts. This research emphasizes the
+  importance of intelligent task allocation in optimizing operational
+  efficiency while safeguarding the ergonomic well-being of human operators. A
+  simulation-based approach is presented, focusing on task allocation within
+  HRC contexts to enhance both human operators' productivity and fatigue
+  levels. The study provides an analysis of fatigue dynamics and its
+  repercussions on industrial settings. The paper outlines various
+  collaborative scenarios, including sole human operation, robot support, a
+  Flexible Workstation (F-WS) support, and combined robot-FWS support,
+  evaluated through a case study of an assembly station. The results underscore
+  the tangible benefits of integrating robotic and F-WS support, demonstrating
+  a balanced improvement in processing speed, operator efficiency, and a
+  significant reduction in fatigue accumulation. In conclusion, this paper
+  advocates for a balanced, human-centric approach to Industry 4.0, where the
+  integration of HRC and ergonomic considerations pave the way for a
+  sustainable, efficient, and health-preserving industrial future.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.procs.2024.01.068
+    \endverb
+    \field{issn}{1877-0509}
+    \field{note}{5th International Conference on Industry 4.0 and Smart
+  Manufacturing (ISM 2023)}
+    \field{pages}{688\bibrangedash 697}
+    \field{title}{Task Allocation in Human-Robot Collaboration: A
+  Simulation-based approach to optimize Operator's Productivity and Ergonomics}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S1877050924000681
+    \endverb
+    \field{volume}{232}
+    \field{journaltitle}{Procedia Computer Science}
+    \field{year}{2024}
+  \endentry
+
+  \entry{dualTask2023}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CS}{%
+         family={Chand},
+         familyi={C\bibinitperiod},
+         given={Saahil},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Yuqian},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{Human-centric manufacturing, NSGA-III genetic algorithm, Fatigue
+  recovery, Human-robot collaboration, Personalized task scheduling}
+    \strng{namehash}{CSLY1}
+    \strng{fullhash}{CSLY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    The increased adoption of collaborative robots into human dominated work
+  cells improves production efficiency of hard-to-automate manufacturing tasks.
+  System-centric task scheduling objectives aim to fully utilize all available
+  agents, often physically burdening workers with schedules designed maximized
+  efficiency. Therefore, the modeling and optimization of human fatigue, as one
+  of the main contributors to efficiency decline and adverse health conditions,
+  is significant to task scheduling in Human-Robot Collaboration (HRC).
+  Furthermore, HRC teams often involve drastically different workers with
+  differing capabilities and muscle strengths – with direct implication
+  toward their personalized fatigue responses. As such, we present a dual
+  scheduling strategy for personalized multi-objective optimization of cycle
+  time and fatigue considering recovery in HRC. The scheduling strategy
+  involves two fatigue minimization objectives which either minimize the
+  team’s fatigue state or an individual worker’s fatigue state. This
+  balances fatigue accumulation between workers, providing targeted rest and
+  recovery to specific workers while maintaining production efficiency. We
+  designed a custom NSGA-III genetic algorithm for simultaneously minimizing
+  cycle time and fatigue. Our model and algorithm are applied to an HRC
+  assembly case and show promising results in redistributing tasks between
+  agents to minimize personalized fatigue.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.mfglet.2023.08.064
+    \endverb
+    \field{issn}{2213-8463}
+    \field{note}{51st SME North American Manufacturing Research Conference
+  (NAMRC 51)}
+    \field{pages}{88\bibrangedash 95}
+    \field{title}{Dual task scheduling strategy for personalized
+  multi-objective optimization of cycle time and fatigue in human-robot
+  collaboration}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S2213846323001219
+    \endverb
+    \field{volume}{35}
+    \field{journaltitle}{Manufacturing Letters}
+    \field{year}{2023}
+  \endentry
+
+  \entry{bayesian2024}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CG}{%
+         family={Chandramowleeswaran},
+         familyi={C\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sindhu},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Alabdeli},
+         familyi={A\bibinitperiod},
+         given={Haider},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mishra},
+         familyi={M\bibinitperiod},
+         given={Anshu},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Vinod},
+         familyi={V\bibinitperiod},
+         given={Priya},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kaur},
+         familyi={K\bibinitperiod},
+         given={Harmeet},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{Productivity;Schedules;Optimal scheduling;Transforms;User
+  interfaces;Signal processing;Bayes methods;Telecommunication
+  computing;Reliability;Usability;Bayesian optimization;intelligent time
+  management;personalized scheduling;productivity enhancement;Gaussian
+  Processes}
+    \strng{namehash}{CG+1}
+    \strng{fullhash}{CGSMAHMAVPKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1109/IICCCS61609.2024.10763658
+    \endverb
+    \field{pages}{1\bibrangedash 5}
+    \field{title}{Intelligent Time Management Recommendations Using Bayesian
+  Optimization}
+    \verb{url}
+    \verb https://ieeexplore.ieee.org/document/10763658
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{competenceTimeQuality2020}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CR}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Rong},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Changyong},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gu},
+         familyi={G\bibinitperiod},
+         given={Dongxiao},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Huimin},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{Project scheduling, Multi-skill, Staff assignment, Multi-objective
+  optimization, IT project portfolio, Ant colony optimization}
+    \strng{namehash}{CR+1}
+    \strng{fullhash}{CRLCGDZH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Technical professionals are a key factor for IT product development. In an
+  IT company, it is common for an employee to hold multiple skills.
+  Multi-skilled staff increases the difficulty of project portfolio scheduling
+  and staff assignment. This paper helps R&D managers cope with the problem by
+  proposing a multi-objective optimization model of project portfolio
+  scheduling and multi-skilled staff assignment. The model considers three
+  objectives with strong practicality, i.e., staff skill enhancement,
+  development cycle time, and product quality, and incorporates skill
+  cultivation through a learning curve. We then propose an improved
+  multi-objective Pareto ant colony optimization algorithm combining genetic
+  operators to find an approximate Pareto solution set. Personalized decision
+  rules with strong practicability are also discussed for selecting an
+  appropriate solution. A case study in a leading electrical device company in
+  China demonstrates the utility of the proposed model and algorithm.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.cie.2019.106183
+    \endverb
+    \field{issn}{0360-8352}
+    \field{pages}{106183}
+    \field{title}{A competence-time-quality scheduling model of multi-skilled
+  staff for IT project portfolio}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0360835219306527
+    \endverb
+    \field{volume}{139}
+    \field{journaltitle}{Computers & Industrial Engineering}
+    \field{year}{2020}
+  \endentry
+
+  \entry{fatigue2025}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CW}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Wang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gu},
+         familyi={G\bibinitperiod},
+         given={Donglian},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Physical fatigue assessment, Human pose estimation, Teacher-student
+  training, Domain adaptation, Work-related musculoskeletal disorder, Deep
+  learning}
+    \strng{namehash}{CWGD1}
+    \strng{fullhash}{CWGD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Mitigating physical fatigue risks in the construction industry is crucial
+  for ensuring workforce sustainability. Prior research has primarily employed
+  computationally intensive computer vision models to assess workers' physical
+  fatigue risks, achieving high accuracy but failing to enable real-time
+  evaluation due to significant computational overhead. To address this
+  challenge, this paper develops a teacher-student training paradigm-powered
+  method that enables real-time physical fatigue risk assessment for
+  construction workers without compromising accuracy. The proposed method
+  leverages the teacher model's capabilities to generate high-quality learning
+  materials, significantly improving the student model's 3D human pose
+  estimation from 2D images, achieving a 3.8 % accuracy improvement on the
+  MuPoTS benchmark dataset. Experimental findings reveal that the student model
+  attains a mean average precision of 84.0 while maintaining real-time
+  performance at 35 frames per second on consumer-level hardware with 6G GPU
+  resources. Field testing demonstrates the effectiveness of the proposed
+  method in real-world construction scenarios.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.autcon.2025.106372
+    \endverb
+    \field{issn}{0926-5805}
+    \field{pages}{106372}
+    \field{title}{Real-time physical fatigue risk assessment for construction
+  workers using a teacher-student training paradigm}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0926580525004121
+    \endverb
+    \field{volume}{177}
+    \field{journaltitle}{Automation in Construction}
+    \field{year}{2025}
+  \endentry
+
+  \entry{twin2025}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CFG}{%
+         family={Ciampi},
+         familyi={C\bibinitperiod},
+         given={Francesco\bibnamedelima Giuseppe},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=DTM}{%
+         family={Diallo},
+         familyi={D\bibinitperiod},
+         given={Thierno\bibnamedelima M.L.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Mhenni},
+         familyi={M\bibinitperiod},
+         given={Faïda},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CJY}{%
+         family={Choley},
+         familyi={C\bibinitperiod},
+         given={Jean-Yves},
+         giveni={J\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Patalano},
+         familyi={P\bibinitperiod},
+         given={Stanislao},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Cyber–physical production system, Reconfiguration, Human–robot
+  collaboration, Digital twin, Physics-informed neural network}
+    \strng{namehash}{CFG+1}
+    \strng{fullhash}{CFGDTMMFCJYPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    This paper presents a Digital Twin-based framework to support the
+  reconfiguration process of Cyber–Physical Production Systems (CPPSs)
+  through human–robot collaboration and Industry 5.0 enabling technologies.
+  The proposed approach integrates a Mixed Reality (MR) module into the digital
+  twin architecture to enhance human–machine interaction, data visualisation,
+  and robot programming. It also incorporates Physics-Informed Neural Networks
+  (PINNs), a hybrid methodology that combines machine learning and physical
+  modelling to improve prediction accuracy and physical consistency. A proof of
+  concept implementation of the framework is carried out on the reconfiguration
+  of a real-world production line within a research platform. The communication
+  mechanism between system modules is tested and discussed in detail.
+  Additionally, the use of PINNs for predicting the energy consumption of a
+  mobile robotic system involved in the reconfiguration task is implemented and
+  benchmarked. The mobile robotic system integrates an AMR (Autonomous Mobile
+  Robot) and a Cobot (collaborative robotic arm). Results show that the
+  proposed model outperforms conventional physics-based and data-driven
+  methods, significantly enhancing the predictive capabilities of the digital
+  twin and broadening its applicability beyond the specific use case.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jmsy.2025.09.001
+    \endverb
+    \field{issn}{0278-6125}
+    \field{pages}{157\bibrangedash 174}
+    \field{title}{Digital twin-based framework for an efficient execution of
+  CPPS reconfiguration through human–robot collaboration}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0278612525002213
+    \endverb
+    \field{volume}{83}
+    \field{journaltitle}{Journal of Manufacturing Systems}
+    \field{year}{2025}
+  \endentry
+
+  \entry{novelHCR2025}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DP}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Peipei},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LSQ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Shi\bibnamedelima Qiang},
+         giveni={S\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Dewang},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Yonghuan},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{Industry 5.0, Human-robot collaboration, Assembly lines, Flow shop
+  scheduling, Mixed integer programming, Hybrid metaheuristics}
+    \strng{namehash}{DP+1}
+    \strng{fullhash}{DPLSQCDHY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Nowadays, numerous manufacturing companies are striving to enhance their
+  process performance by leveraging innovative technologies like collaborative
+  robots. This paper introduces a novel Human-Robot Collaboration (HRC)
+  scheduling problem, motivated by an industry-university partnership project.
+  For simplicity, this scheduling problem is named “ALB-HRC-FSS”, as it
+  combines elements of the traditional Assembly Line Balancing (ALB) and Flow
+  Shop Scheduling (FSS) problems while incorporating the concurrent use of
+  human workers and collaborative robots. As far as we know, this study is
+  among the first to link the ALB-HRC with the FSS from a mathematical
+  standpoint. A detailed description of the proposed ALB-HRC-FSS problem
+  setting is presented by numerical examples, disjunctive graphs and Gantt
+  charts. A series of Mixed-Integer Programming (MIP) models are developed to
+  formulate the problem interactively. Due to computational complexity, a
+  hybrid metaheuristic algorithm (i.e., a combination of Memetic Algorithm and
+  Tabu Search) is developed to solve the ALB-HRC-FSS problem effectively.
+  Computational experiments with scenario-based analysis are performed to
+  verify the practicality and effectiveness of the proposed ALB-HRC-FSS
+  methodology. As the ALB-HRC-FSS integrates the strengths of three research
+  domains (i.e., assembly line balancing, human-robot collaboration and flow
+  shop scheduling), this study contributes to designing a more holistic
+  industrial system for reshaping manufacturing processes in the context of
+  Industry 5.0.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.tre.2025.104299
+    \endverb
+    \field{issn}{1366-5545}
+    \field{pages}{104299}
+    \field{title}{A novel real-world human-robot collaboration scheduling
+  problem: a combination of assembly line balancing and flow shop scheduling}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S1366554525003400
+    \endverb
+    \field{volume}{202}
+    \field{journaltitle}{Transportation Research Part E: Logistics and
+  Transportation Review}
+    \field{year}{2025}
+  \endentry
+
+  \entry{hierarchy2024}{article}{}
+    \name{author}{6}{}{%
+      {{hash=DX}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Xiaoting},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={Wan},
+         familyi={W\bibinitperiod},
+         given={Guangxi},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=ZP}{%
+         family={Zeng},
+         familyi={Z\bibinitperiod},
+         given={Peng},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Chunhe},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Shijie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yiyang},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{Flexible manufacturing system, Automated planning, PDDL,
+  Probabilistic planning problem}
+    \strng{namehash}{DX+1}
+    \strng{fullhash}{DXWGZPSCCSLY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Task planning and action planning for workshop machines are essential for
+  modern manufacturing. Traditionally, these two problems are solved
+  independently with elaborate manual methods. However, personalized
+  customization introduces more dynamic exogenous events into the manufacturing
+  system, and it is then impossible to consider all possible dynamic scenarios
+  manually. This paper focuses on online automated planning, generating new
+  plans automatically in response to new dynamic situations. We first formulate
+  the planning problem for a flexible manufacturing system as a fully
+  observable nondeterministic planning problem. Second, a hierarchical
+  automated online planning approach is presented. Finally, the effectiveness
+  of the proposed approach is verified by an ARIAC 2022 competition
+  environment.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.rcim.2024.102807
+    \endverb
+    \field{issn}{0736-5845}
+    \field{pages}{102807}
+    \field{title}{Hierarchical online automated planning for a flexible
+  manufacturing system}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0736584524000942
+    \endverb
+    \field{volume}{90}
+    \field{journaltitle}{Robotics and Computer-Integrated Manufacturing}
+    \field{year}{2024}
+  \endentry
+
+  \entry{LLM2025}{article}{}
+    \name{author}{9}{}{%
+      {{hash=GJ}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Junlin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Huijia},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=XL}{%
+         family={Xiang},
+         familyi={X\bibinitperiod},
+         given={Liuyu},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Han},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xiangang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Meng},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Yaodong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HZ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Zhaofeng},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \keyw{LLM, Dialogue, Multi-turn, Evaluation, Task planning}
+    \strng{namehash}{GJ+1}
+    \strng{fullhash}{GJCJWHXLZHLXFMYYHZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Large language models (LLMs) are increasingly relied upon for multi-turn
+  dialogue to conduct complex tasks. However, existing benchmarks mainly
+  evaluate LLMs as agents, overlooking their potential as independent systems
+  to accomplish complex tasks. In addition, these benchmarks typically evaluate
+  the planning and completion capabilities of the models individually, rather
+  than simultaneously. To address these issues, we propose a new Dynamic
+  Evaluation Framework for Multi-Turn task planning and completion (DEF-MT) to
+  assess the ability of LLM to independently complete complex tasks in
+  multi-turn scenarios. Our approach quantifies the model’s planning
+  capability by guiding it to generate planning and responses sequentially.
+  Simultaneously, we use a dynamic approach to generate data that simulates the
+  complex intents of real users. Finally, experiments conducted on 9 mainstream
+  models using the Multiwoz 2.2 dataset, indicate that the existing models’
+  sub-task planning capabilities hinder their ability to complete complex
+  tasks, providing a meaningful reference for the future optimization direction
+  of LLM.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.neucom.2025.130135
+    \endverb
+    \field{issn}{0925-2312}
+    \field{pages}{130135}
+    \field{title}{Can large language models independently complete tasks? A
+  dynamic evaluation framework for multi-turn task planning and completion}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0925231225008070
+    \endverb
+    \field{volume}{638}
+    \field{journaltitle}{Neurocomputing}
+    \field{year}{2025}
+  \endentry
+
+  \entry{inTimeRL2021}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GS}{%
+         family={Gönül},
+         familyi={G\bibinitperiod},
+         given={Suat},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Namlı},
+         familyi={N\bibinitperiod},
+         given={Tuncay},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Coşar},
+         familyi={C\bibinitperiod},
+         given={Ahmet},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=�HT}{%
+         prefix={İsmail},
+         prefixi={�\bibinitperiod},
+         family={Hakkı\bibnamedelima Toroslu},
+         familyi={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \keyw{Reinforcement learning, Intervention delivery optimization,
+  Just-in-time adaptive interventions, Personalized health interventions,
+  Personalized interventions}
+    \strng{namehash}{GS+1}
+    \strng{fullhash}{GSNTCAHT�1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Suboptimal health related behaviors and habits; and resulting chronic
+  diseases are responsible for majority of deaths globally. Studies show that
+  providing personalized support to patients yield improved results by
+  preventing and/or timely treatment of these problems. Digital, just-in-time
+  and adaptive interventions are mobile phone-based notifications that are
+  being utilized to support people wherever and whenever necessary in coping
+  with their health problems. In this research, we propose a reinforcement
+  learning-based mechanism to personalize interventions in terms of timing,
+  frequency and preferred type(s). We simultaneously employ two reinforcement
+  learning models, namely intervention-selection and
+  opportune-moment-identification; capturing and exploiting changes in people's
+  long-term and momentary contexts respectively. While the
+  intervention-selection model adapts the intervention delivery with respect to
+  type and frequency, the opportune-moment-identification model tries to find
+  the most opportune moments to deliver interventions throughout a day. We
+  propose two accelerator techniques over the standard reinforcement learning
+  algorithms to boost learning performance. First, we propose a customized
+  version of eligibility traces for rewarding past actions throughout an
+  agent's trajectory. Second, we utilize the transfer learning method to reuse
+  knowledge across multiple learning environments. We validate the proposed
+  approach in a simulated experiment where we simulate four personas differing
+  in their daily activities, preferences on specific intervention types and
+  attitudes towards the targeted behavior. Our experiments show that the
+  proposed approach yields better results compared to the standard
+  reinforcement learning algorithms and successfully capture the simulated
+  variations associated with the personas.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.artmed.2021.102062
+    \endverb
+    \field{issn}{0933-3657}
+    \field{pages}{102062}
+    \field{title}{A reinforcement learning based algorithm for personalization
+  of digital, just-in-time, adaptive interventions}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0933365721000555
+    \endverb
+    \field{volume}{115}
+    \field{journaltitle}{Artificial Intelligence in Medicine}
+    \field{year}{2021}
+  \endentry
+
+  \entry{education2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HB}{%
+         family={Haderer},
+         familyi={H\bibinitperiod},
+         given={Bernhard},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Ciolacu},
+         familyi={C\bibinitperiod},
+         given={Monica},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{education 4.0, engineering education, graphic user interface,
+  self-regulated learning, industry 4.0, sustainable higher education}
+    \strng{namehash}{HBCM1}
+    \strng{fullhash}{HBCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Sometimes it takes a crisis. Engineering Education 4.0 for the Industry 4.0
+  and post Covid-19 needs a Curricula 4.0 and also learning and teaching
+  scenarios adapted for the New World of Work with social distancing and mobile
+  collaboration. The Education 4.0 process implements Artificial Intelligence
+  methods (AI) in each phase of the process for increasing students
+  self-regulated learning. This paper presents an AI assisted task and planning
+  system for students including analysis, concept for mobile operating systems,
+  and graphic user interface for smartphones. In addition, the current state of
+  the art is provided and a detailed description of the system development
+  process using the task planner as an example. The procedure from the design
+  draft to the programming phase with integrated test techniques is explained.
+  The tools and components required for this are illustrated using the project
+  work. Finally, the overall project is evaluated and the added value of the
+  solution created for the end user is presented in a summary. In the future,
+  the proposed concept can be implemented also for other wearable devices such
+  as smartwatches.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.procs.2022.01.334
+    \endverb
+    \field{issn}{1877-0509}
+    \field{note}{3rd International Conference on Industry 4.0 and Smart
+  Manufacturing}
+    \field{pages}{1328\bibrangedash 1337}
+    \field{title}{Education 4.0: Artificial Intelligence Assisted Task- and
+  Time Planning System}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S187705092200343X
+    \endverb
+    \field{volume}{200}
+    \field{journaltitle}{Procedia Computer Science}
+    \field{year}{2022}
+  \endentry
+
+  \entry{tourist2025}{article}{}
+    \name{author}{5}{}{%
+      {{hash=HY}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Yuning},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Luo},
+         familyi={L\bibinitperiod},
+         given={Xinggang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Xinrui},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=JP}{%
+         family={Ji},
+         familyi={J\bibinitperiod},
+         given={Pengli},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhongliang},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \keyw{Tourist trip design, Priority service, Orienteering problem,
+  Branch-and-bound}
+    \strng{namehash}{HY+1}
+    \strng{fullhash}{HYLXLXJPZZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    In recent years, the tourism industry has experienced robust growth and
+  plays a crucial role in the economy. Tourist congestion is a common issue
+  that can significantly affect service quality. To maintain a high level of
+  service in congested environments, many attractions offer priority services,
+  such as the VIP services commonly offered in malls or amusement parks, which
+  grant priority access to specific customers and allow them to reduce or even
+  eliminate waiting times. By integrating such priority discipline, businesses
+  can enhance the satisfaction of high-priority tourists while improving
+  profitability. In this paper, a new tourist trip design problem that
+  incorporates two priority discipline strategies is introduced, for the first
+  time representing the priority discipline as constraints within the model to
+  ensure that the solutions strictly adhere to the discipline. To address this
+  problem, a branch-and-bound algorithm is proposed for solving small-scale
+  instances, and an adaptive large neighborhood search algorithm is developed
+  to efficiently handle large-scale instances, with a customized heuristic rule
+  used to determine the visiting orders at each attraction. The effectiveness
+  of both algorithms is demonstrated through experimental results. Finally,
+  parameter analysis is conducted for the model, and several managerial
+  insights are obtained.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.seps.2025.102286
+    \endverb
+    \field{issn}{0038-0121}
+    \field{pages}{102286}
+    \field{title}{Tourist trip planning with priority discipline}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0038012125001351
+    \endverb
+    \field{volume}{101}
+    \field{journaltitle}{Socio-Economic Planning Sciences}
+    \field{year}{2025}
+  \endentry
+
+  \entry{endline2025}{article}{}
+    \name{author}{8}{}{%
+      {{hash=HA}{%
+         family={Hämmerle},
+         familyi={H\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KMJ}{%
+         family={Kollingbaum},
+         familyi={K\bibinitperiod},
+         given={Martin\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Steiner},
+         familyi={S\bibinitperiod},
+         given={Florian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=EG}{%
+         family={Ebenhofer},
+         familyi={E\bibinitperiod},
+         given={Gerhard},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Widmoser},
+         familyi={W\bibinitperiod},
+         given={Fabian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Ikeda},
+         familyi={I\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Bauer},
+         familyi={B\bibinitperiod},
+         given={Harald},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pichler},
+         familyi={P\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{zero defect manufacturing, human-robot cooperation, task scheduling,
+  agent-based systems, ergonomics in manufacturing}
+    \strng{namehash}{HA+1}
+    \strng{fullhash}{HAKMJSFEGWFIMBHPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    In zero defect manufacturing, final inspection and rework activities play
+  an important role. Such an end-of-line process has particular characteristics
+  that pose difficulties in scheduling rework activities. In order to achieve
+  zero defect, a workpiece may have to undergo inspection and rework multiple
+  times. Neither the number of rework cycles nor the duration of rework
+  activities can be reliably predicted. In this paper, an agent-oriented
+  approach for managing a mixed human-robot team to perform final inspection
+  and rework is presented. The task assignment to workers and robots takes
+  place according to a concept of agents “pulling” tasks to be performed by
+  either a worker or a robot (such as a rework operation) from a pool of
+  currently available work. This selection is guided by the principle of human
+  initiative – human workers indicate when they are ready to perform a next
+  task. This and other ergonomic considerations are introduced in the task
+  scheduling and assignment process through particular heuristics.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.procs.2025.01.114
+    \endverb
+    \field{issn}{1877-0509}
+    \field{note}{6th International Conference on Industry 4.0 and Smart
+  Manufacturing}
+    \field{pages}{524\bibrangedash 532}
+    \field{title}{An approach to task scheduling in an end-of-line quality
+  assurance situation with human-robot cooperation}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S187705092500122X
+    \endverb
+    \field{volume}{253}
+    \field{journaltitle}{Procedia Computer Science}
+    \field{year}{2025}
+  \endentry
+
+  \entry{kitchenham2007guidelines}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{2}{}{%
+      {{hash=KB}{%
+         family={Kitchenham},
+         familyi={K\bibinitperiod},
+         given={Barbara},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Charters},
+         familyi={C\bibinitperiod},
+         given={Stuart},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Keele, UK}%
+    }
+    \strng{namehash}{KBCS+1}
+    \strng{fullhash}{KBCS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Guidelines for performing systematic literature reviews in
+  software engineering}
+    \field{year}{2007}
+  \endentry
+
+  \entry{workLifeBalance2023}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KHI}{%
+         family={Koruca},
+         familyi={K\bibinitperiod},
+         given={Halil\bibnamedelima {\.{I}}brahim},
+         giveni={H\bibinitperiod\bibinitdelim {\.{I}}\bibinitperiod},
+      }}%
+      {{hash=EMS}{%
+         family={Emek},
+         familyi={E\bibinitperiod},
+         given={Murat\bibnamedelima Serdar},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Gulmez},
+         familyi={G\bibinitperiod},
+         given={Esra},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KHIEMSGE1}
+    \strng{fullhash}{KHIEMSGE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Burnout rates and dissatisfaction among healthcare workers remain high due
+  to long working hours. One possible solution to this problem is to let them
+  choose their weekly working hours and starting times in order to achieve a
+  work-life balance. Moreover, a scheduling process that responds to changing
+  healthcare demands at different times of the day should increase work
+  efficiency in hospitals. In this study, a methodology and software were
+  developed to schedule hospital personnel, taking into account their
+  preferences regarding working hours and starting time. The software also
+  allows the hospital management to determine the number of staff needed at
+  different times of the day. Three methods and five working-time scenarios
+  characterized by different divisions of working time are proposed to solve
+  the scheduling problem. The Seniority score Priority assignment Method
+  appoints personnel prioritizing seniority, whereas the newly developed
+  Balanced and Fair assignment Method and Genetic Algorithm Method aim for a
+  more nuanced distribution. The methods proposed were applied to physicians in
+  the internal diseases department in a specific hospital. Weekly/monthly
+  scheduling of all employees was carried out with the software. The results of
+  scheduling factoring in work-life balance, and the performances of algorithms
+  are shown for the hospital where the application was trialled.%
+    }
+    \verb{doi}
+    \verb 10.1007/s10479-023-05244-2
+    \endverb
+    \field{issn}{1572-9338}
+    \field{pages}{793\bibrangedash 820}
+    \field{title}{Development of a new personalized staff-scheduling method
+  with a work-life balance perspective: case of a hospital}
+    \verb{url}
+    \verb https://doi.org/10.1007/s10479-023-05244-2
+    \endverb
+    \field{volume}{328}
+    \field{journaltitle}{Annals of Operations Research}
+    \field{year}{2023}
+  \endentry
+
+  \entry{HRC2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LYY}{%
+         family={Liau},
+         familyi={L\bibinitperiod},
+         given={Yee\bibnamedelima Yeng},
+         giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Ryu},
+         familyi={R\bibinitperiod},
+         given={Kwangyeol},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Human-robot collaboration, Task Allocation, Work decomposition,
+  Analytic Network Process (ANP), Genetic Algorithm}
+    \strng{namehash}{LYYRK1}
+    \strng{fullhash}{LYYRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    The involvement of repetitive motion with force and heavy component
+  handling during the manual mold assembly causes an ergonomic problem that
+  harms the musculoskeletal system on the human worker. This ergonomic problem
+  can be eliminated using a robot. However, the traditional automation system
+  is impractical to be implemented in the mold assembly because of the
+  complexity of the customized mold structure. Hence, human-robot collaboration
+  (HRC) systems became the potential solution to improve the working conditions
+  with the assistance of a robot while adapting to the frequent change over in
+  the mold assembly operation. In this paper, we propose a task allocation
+  model for the HRC system that consists of three agents who are one human and
+  two robots to cope with heavy part handling and the diversity of tasks in the
+  mold assembly. First, we decompose the assembly operation into functional
+  actions. Second, we evaluate the action assignment using the Analytic Network
+  Process (ANP) based on the action characteristics and agent capability.
+  Third, we allocate the functional action to the agents in the HRC work cell
+  using the Genetic Algorithm (GA) to minimize the operation cycle time and
+  maximize the agent capability. The outcome of this paper is to contribute to
+  the expansion of the HRC system with one human and two robots in the mold
+  assembly operation. In addition to the improvement in the ergonomic
+  condition, the proposed task allocation model can achieve a wider variety of
+  tasks assigned to robots with minimum tool change.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.promfg.2020.10.026
+    \endverb
+    \field{issn}{2351-9789}
+    \field{note}{30th International Conference on Flexible Automation and
+  Intelligent Manufacturing (FAIM2021)}
+    \field{pages}{179\bibrangedash 186}
+    \field{title}{Task Allocation in Human-Robot Collaboration (HRC) Based on
+  Task Characteristics and Agent Capability for Mold Assembly}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S2351978920318813
+    \endverb
+    \field{volume}{51}
+    \field{journaltitle}{Procedia Manufacturing}
+    \field{year}{2020}
+  \endentry
+
+  \entry{hospitality2025}{article}{}
+    \name{author}{5}{}{%
+      {{hash=PR}{%
+         family={Pitakaso},
+         familyi={P\bibinitperiod},
+         given={Rapeepan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GDP}{%
+         family={Golinska-Dawson},
+         familyi={G\bibinithyphendelim D\bibinitperiod},
+         given={Paulina},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Luesak},
+         familyi={L\bibinitperiod},
+         given={Peerawat},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Srichok},
+         familyi={S\bibinitperiod},
+         given={Thanatkij},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Khonjun},
+         familyi={K\bibinitperiod},
+         given={Surajet},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Artificial intelligence, Operational efficiency, Guest satisfaction,
+  Service personalization, Dynamic scheduling}
+    \strng{namehash}{PR+1}
+    \strng{fullhash}{PRGDPLPSTKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    The hospitality sector increasingly grapples with the tension between
+  operational efficiency and personalized guest services. In response, this
+  study develops and evaluates a novel platform for dynamic room cleaning and
+  resource allocation, guided by open innovation principles and complexity
+  theory. Specifically, we propose the Artificial Multiple Intelligence System
+  (AMIS), which employs heuristic-based optimization to coordinate real-time
+  task assignments and ensure equitable workloads for housekeeping staff. We
+  conducted a pilot implementation at a hotel in Ubon Ratchathani Province,
+  Thailand, using a mixed-method approach that combined quantitative metrics
+  with qualitative feedback. Our findings indicate that the AMIS framework
+  substantially improves operational performance, as evidenced by more than a
+  50 % reduction in average room turnaround times and a task completion rate
+  surpassing 99 %. Additionally, the system promotes balanced workloads and
+  reduces employee working hours, suggesting practical avenues for sustainable
+  workforce management. Beyond operational gains, the platform enhances guest
+  satisfaction by enabling on-demand service customization, underscoring its
+  potential as a source of competitive advantage. By examining both resource
+  efficiency and service personalization, this study sheds light on how
+  AI-driven solutions can address the complexities inherent in hospitality
+  operations. The insights gained extend beyond routine scheduling,
+  demonstrating how computational innovations, when carefully integrated with
+  managerial strategies, can foster adaptable and forward-looking business
+  models. Ultimately, the AMIS framework contributes to discussions on
+  leveraging technology to modernize service delivery and operational planning,
+  while also highlighting broader implications for AI adoption in dynamic
+  service industries.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.joitmc.2025.100487
+    \endverb
+    \field{issn}{2199-8531}
+    \field{pages}{100487}
+    \field{title}{Embracing open innovation in hospitality management:
+  Leveraging AI-driven dynamic scheduling systems for complex resource
+  optimization and enhanced guest satisfaction}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S2199853125000228
+    \endverb
+    \field{volume}{11}
+    \field{journaltitle}{Journal of Open Innovation: Technology, Market, and
+  Complexity}
+    \field{year}{2025}
+  \endentry
+
+  \entry{orchestration2026}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SS}{%
+         family={Sch\"{o}mbs},
+         familyi={S\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Goncalves},
+         familyi={G\bibinitperiod},
+         given={Jorge},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JW}{%
+         family={Johal},
+         familyi={J\bibinitperiod},
+         given={Wafa},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{agentic systems, multi-agentic system, human-agentic interaction,
+  design, risk}
+    \strng{namehash}{SS+1}
+    \strng{fullhash}{SSZYGJJW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Recent advances in multi-agentic systems (e.g., AutoGen, OpenAI Agents)
+  allow users to interact with a group of specialised AI agents rather than a
+  single general-purpose agent. Despite the promise of this new paradigm, the
+  HCI community has yet to fully examine the opportunities, risks, and
+  user-centred challenges it introduces. We contribute to research on
+  multi-agentic systems by exploring their architectures and key features
+  through a human-centred lens. While literature and use cases are still
+  emerging, we build on existing tools and frameworks available to developers
+  to identify a set of overarching challenges, e.g., orchestration and conflict
+  resolution, that can guide future research in HCI. We illustrate these
+  challenges through examples, present potential design considerations, and
+  provide research opportunities to spark interdisciplinary conversation. Our
+  work lays the groundwork for future exploration and offers a research agenda
+  focused on user-centred design in multi-agentic systems.%
+    }
+    \verb{doi}
+    \verb 10.1145/3765766.3765795
+    \endverb
+    \field{pages}{158–168}
+    \field{title}{From Conversation to Orchestration: HCI Challenges and
+  Opportunities in Interactive Multi-Agentic Systems}
+    \verb{url}
+    \verb https://doi.org/10.1145/3765766.3765795
+    \endverb
+    \field{year}{2026}
+  \endentry
+
+  \entry{workflow-db}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Shahzad},
+         familyi={S\bibinitperiod},
+         given={Muhammad},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Kaggle}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Workflow Operations Performance Dataset}
+    \verb{url}
+    \verb https://www.kaggle.com/datasets/algozee/workflow-operations-performan
+    \verb ce-dataset
+    \endverb
+    \field{year}{2026}
+  \endentry
+
+  \entry{future2025}{article}{}
+    \name{author}{4}{}{%
+      {{hash=UM}{%
+         family={Urgo},
+         familyi={U\bibinitperiod},
+         given={Marcello},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lanza},
+         familyi={L\bibinitperiod},
+         given={Gisela},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VR}{%
+         family={Vrabič},
+         familyi={V\bibinitperiod},
+         given={Rok},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gyulai},
+         familyi={G\bibinitperiod},
+         given={Dávid},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{manufacturing, scheduling, control}
+    \strng{namehash}{UM+1}
+    \strng{fullhash}{UMLGVRGD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{abstract}{%
+    Traditional production scheduling and control are increasingly inadequate
+  in light of the rapid evolution of manufacturing technology, the growing
+  impact of unforeseen disruptions, and the generally increasing complexity of
+  production. A framework for future-proof production scheduling and control is
+  introduced to close this gap, providing a comprehensive overview of future
+  requirements and the necessary technologies and approaches. Robust decision
+  criteria are derived, explained and filled with major recent advances in
+  production scheduling and control, digital twins, artificial intelligence,
+  and knowledge formalisation. Emerging trends are discussed, and an outlook
+  for future research and decision-making is derived.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.cirp.2025.04.095
+    \endverb
+    \field{issn}{0007-8506}
+    \field{pages}{971\bibrangedash 991}
+    \field{title}{Future-Proof Production Scheduling and Control}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0007850625001428
+    \endverb
+    \field{volume}{74}
+    \field{journaltitle}{CIRP Annals}
+    \field{year}{2025}
+  \endentry
+
+  \entry{exocortex2024}{article}{}
+    \name{author}{1}{}{%
+      {{hash=YKG}{%
+         family={Yager},
+         familyi={Y\bibinitperiod},
+         given={Kevin\bibnamedelima G.},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YKG1}
+    \strng{fullhash}{YKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{abstract}{%
+    Artificial intelligence (AI) methods are poised to revolutionize
+  intellectual work, with generative AI enabling automation of text analysis,
+  text generation, and simple decision making or reasoning. The impact to
+  science is only just beginning, but the opportunity is significant since
+  scientific research relies fundamentally on extended chains of cognitive
+  work. Here, we review the state of the art in agentic AI systems, and discuss
+  how these methods could be extended to have even greater impact on science.
+  We propose the development of an exocortex, a synthetic extension of a
+  person's cognition. A science exocortex could be designed as a swarm of AI
+  agents, with each agent individually streamlining specific researcher tasks,
+  and whose inter-communication leads to emergent behavior that greatly extend
+  the researcher's cognition and volition.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1039/d4dd00178h
+    \endverb
+    \field{issn}{2635-098X}
+    \field{pages}{1933\bibrangedash 1957}
+    \field{title}{Towards a science exocortex}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S2635098X2400158X
+    \endverb
+    \field{volume}{3}
+    \field{journaltitle}{Digital Discovery}
+    \field{year}{2024}
+  \endentry
+
+  \entry{hr-db}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=Z}{%
+         family={Zara},
+         familyi={Z\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Kaggle}%
+    }
+    \strng{namehash}{Z1}
+    \strng{fullhash}{Z1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{title}{Human Resource Allocation Dataset}
+    \verb{url}
+    \verb https://www.kaggle.com/datasets/zara2099/human-resource-allocation-da
+    \verb taset
+    \endverb
+    \field{year}{2026}
+  \endentry
+
+  \entry{cognitive-db}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=�A}{%
+         family={Üstün},
+         familyi={�\bibinitperiod},
+         given={Ahmet},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Kaggle}%
+    }
+    \strng{namehash}{�A1}
+    \strng{fullhash}{�A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{�}
+    \field{sortinithash}{�}
+    \field{title}{Cognitive Performance & Biometric Optimization DS}
+    \verb{url}
+    \verb https://www.kaggle.com/datasets/ustunahmet/cognitive-performance-and-
+    \verb biometric-optimization-ds/data
+    \endverb
+    \field{year}{2026}
+  \endentry
+\enddatalist
+\endinput

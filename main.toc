@@ -1,0 +1,71 @@
+\babel@toc {polish}{}\relax 
+\contentsline {section}{\numberline {1}Wstęp}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Problematyka i zakres pracy}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Cele pracy}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Układ pracy}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Przegląd literatury}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Automatyzacja i personalizacja planowania zadań}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Metodyka systematycznego przeglądu literatury}{4}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Pytania badawcze przeglądu}{5}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Strategia wyszukiwania}{5}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Warunki uwzględnienia i wykluczenia}{6}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Ocena jakości (\textit {Quality Assessment})}{7}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}Procedura selekcji}{7}{subsubsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.7}Ekstrakcja i synteza danych}{9}{subsubsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.8}Wyniki systematycznego przeglądu literatury}{9}{subsubsection.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.1.9}Opis badań podstawowych}{10}{subsubsection.2.1.9}%
+\contentsline {subsubsection}{\numberline {2.1.10}Wykaz analizy jakości (\textit {Quality Assessment})}{10}{subsubsection.2.1.10}%
+\contentsline {subsubsection}{\numberline {2.1.11}RQ1: Jakie są obecne podstawy algorytmiczne w personalizowanym planowaniu zadań i jak wybrane metody (GA, RL, agenci AI) wypadaj ˛a w bezpośrednim porównaniu?}{10}{subsubsection.2.1.11}%
+\contentsline {subsubsection}{\numberline {2.1.12}RQ2: Jakie parametry i ograniczenia skoncentrowane na użytkowniku (np. zmęczenie, przerwy, rytm okołodobowy) są najczęściej włączane do omawianych modeli?}{14}{subsubsection.2.1.12}%
+\contentsline {subsubsection}{\numberline {2.1.13}RQ3: W jaki sposób dane o historycznej wydajności użytkownika (np. średni czas realizacji zadań) są wykorzystywane do personalizacji przyszłych przewidywań w harmonogramie?}{15}{subsubsection.2.1.13}%
+\contentsline {subsubsection}{\numberline {2.1.14}RQ4: Jakie są główne metody weryfikacji, wyzwania oraz ograniczenia zidentyfikowane w aktualnych rozwiązaniach dotyczących planowania zadań?}{15}{subsubsection.2.1.14}%
+\contentsline {subsubsection}{\numberline {2.1.15}Dyskusja}{17}{subsubsection.2.1.15}%
+\contentsline {subsection}{\numberline {2.2}Rytm dobowy i modelowanie funkcjonowania człowieka}{19}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Synteza literatury i luka badawcza}{19}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Wybrane zagadnienia teoretyczne z zakresu automatyzacji planowania zadań i personalizacji}{20}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Problem automatycznego planowania zadań}{20}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Planowanie i harmonogramowanie zadań}{20}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Problemy Job-Shop Scheduling i Flexible Job-Shop Scheduling}{20}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Modelowanie zadań, zasobów i ograniczeń}{20}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Dynamiczne przeplanowanie zadań}{20}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}Personalizacja i podejście Human-in-the-Loop}{20}{subsubsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.2}Optymalizacja wielokryterialna}{20}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Problem optymalizacji wielokryterialnej}{20}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Dominacja Pareto i front Pareto}{20}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Algorytmy ewolucyjne w optymalizacji wielokryterialnej}{20}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Algorytm NSGA-II}{20}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Algorytm NSGA-III}{20}{subsubsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.3}Uczenie przez wzmacnianie}{20}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Podstawy uczenia przez wzmacnianie}{20}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Proces decyzyjny Markowa}{20}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Funkcja nagrody i polityka agenta}{20}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Proximal Policy Optimization}{20}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Informacja zwrotna użytkownika w procesie uczenia}{20}{subsubsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.4}Modelowanie zmienności funkcjonowania człowieka}{20}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Rytm okołodobowy}{20}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Chronotyp i różnice indywidualne}{20}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Zmęczenie i wydajność podczas wykonywania zadań}{20}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Odpoczynek i regeneracja}{20}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Reprezentacja stanu użytkownika w systemie planowania}{20}{subsubsection.3.4.5}%
+\contentsline {section}{\numberline {4}Wykorzystane dane i stos technologiczny}{21}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Bazy danych}{21}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Augmentacja i synteza danych}{21}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Wykorzystane technologie}{21}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Konstrukcja eksperymentu porównania metod planowania}{22}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Składowe elementy uwzględnione w eksperymencie}{22}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Miary oceny}{22}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Modelowanie funkcjonowania człowieka}{22}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Architektura modeli}{23}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Punkt odniesienia}{23}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Niezdominowany Algorytm Sortowania Genetycznego - \texttt {NSGAPlanner}}{23}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.3}Proximal Policy Optimization - \texttt {PPOPlanner}}{23}{subsubsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.5}Plan eksperymentu}{23}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Wyniki}{24}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Etap 1}{24}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Etap 2}{24}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Podsumowanie}{25}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Analiza wyników eksperymentu}{25}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Ocena użyteczności wybranych metod automatyzacji planowania zadań}{25}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Możliwość dalszego rozwoju tematyki pracy}{25}{subsection.7.3}%
+\contentsline {section}{Spis rysunk\'ow}{26}{section*.15}%
+\contentsline {section}{Spis tabel}{27}{section*.16}%
