@@ -1,0 +1,50 @@
+\section{Augmentacja i synteza danych}
+\label{sec:augmentacja_synteza}
+
+Ze względu na charakter przeprowadzanego eksperymentu oraz konieczność wielokrotnego i ciągłego dostarczania danych do modeli, pozyskanie pełnego zbioru danych na podstawie rzeczywistej pracy użytkowników byłoby trudne do zrealizowania. W szczególności wymagałoby ono systematycznego raportowania momentu rozpoczęcia i zakończenia każdego zadania, zmian planu dnia, przerw oraz zdarzeń nagłych. W warunkach rzeczywistego środowiska pracy takie dane byłyby obarczone dużym ryzykiem braków i opóźnień w raportowaniu. Z tego względu w eksperymencie zastosowano podejście hybrydowe, łączące dane pochodzące z publicznie dostępnych zbiorów z danymi syntetycznymi generowanymi zgodnie z przyjętymi założeniami.
+
+Podstawę procesu generowania stanowiły trzy zbiory danych dostępne na platformie Kaggle: zbiór zawierający informacje o zadaniach, ich szacowanym czasie wykonania, priorytecie i obszarze organizacyjnym, zbiór opisujący pracowników wraz z ich kompetencjami i parametrami aktywności oraz zbiór zawierający informacje o chronotypach. Dane z tych źródeł zostały następnie przekształcone do wspólnego schematu wykorzystywanego w eksperymencie.
+
+\subsection{Generowanie profili użytkowników}
+
+Profile użytkowników utworzono na podstawie unikalnych identyfikatorów pracowników występujących w zbiorze danych dotyczących alokacji zasobów ludzkich. Dla każdego użytkownika określono pięć poziomów kompetencji: technicznych, komunikacyjnych, analitycznych, kreatywnych oraz rutynowych. Kompetencje techniczne, komunikacyjne i analityczne wyznaczono przez normalizację odpowiadających im wartości źródłowych do przedziału $[0,1]$. Dwie brakujące cechy, tj. kompetencje kreatywne oraz rutynowe, wygenerowano syntetycznie z wykorzystaniem rozkładów beta. Takie rozwiązanie pozwoliło zachować zróżnicowanie poziomu umiejętności pomiędzy użytkownikami, a jednocześnie uzupełnić cechy niewystępujące bezpośrednio w danych źródłowych.
+
+Dodatkowo dla każdego użytkownika wyznaczono prawdopodobieństwo prokrastynacji. Wartość tę obliczano na podstawie liczby godzin bezczynności oraz wskaźnika obecności, a następnie ograniczano do przedziału od $0{,}05$ do $0{,}95$. Parametr ten nie reprezentuje bezpośredniej diagnozy zachowania użytkownika, lecz stanowi syntetyczną cechę eksperymentalną wykorzystywaną przez symulator.
+
+Każdemu profilowi przypisano również jeden z trzech chronotypów: \textit{morning lark}, \textit{intermediate} lub \textit{night owl}. Prawdopodobieństwa losowania poszczególnych klas wyznaczono na podstawie empirycznego rozkładu chronotypów w osobnym zbiorze danych. Dzięki temu syntetycznie przypisane chronotypy zachowują rozkład zbliżony do danych źródłowych, zamiast przyjmować rozkład jednostajny. Niezależnie od chronotypu użytkownikom przypisano także godzinę rozpoczęcia pracy, losowaną spośród 7:00, 8:00 i 9:00, przy założeniu ośmiogodzinnego dnia pracy.
+
+Na potrzeby wstępnego uczenia wydzielono $20\%$ użytkowników i oznaczono ich jako użytkowników treningowych. Selekcja była przeprowadzana z uwzględnieniem chronotypu, zgodnie z proporcjami $30\%$ dla typu \textit{morning lark}, $40\%$ dla typu \textit{intermediate} oraz $30\%$ dla typu \textit{night owl}. Pozostali użytkownicy mogli być następnie wykorzystywani w dalszych etapach eksperymentu, co umożliwiało ocenę działania modeli na profilach niewykorzystywanych bezpośrednio podczas wstępnego uczenia.
+
+\subsection{Przetwarzanie i augmentacja zadań}
+
+Zadania utworzono przez połączenie danych pochodzących ze zbioru zadań oraz zbioru alokacji pracowników. Dla rekordów, dla których brakowało jednoznacznej nazwy zadania, generowano nazwę na podstawie typu działu i przygotowanej listy przykładowych aktywności. Nazwy miały przede wszystkim znaczenie prezentacyjne i ułatwiały interpretację wygenerowanych harmonogramów; właściwe znaczenie dla algorytmów miały przede wszystkim czas trwania, priorytet, typ zadania i termin wykonania.
+
+Każde zadanie przypisano do jednej z pięciu kategorii kompetencyjnych: \textit{technical}, \textit{communication}, \textit{analytical}, \textit{creativity} lub \textit{routine}. Klasyfikacja była wykonywana na podstawie działu, z którego pochodziło zadanie. Jednocześnie przeprowadzono korektę rozkładu priorytetów w danych źródłowych, tak aby ograniczyć nadreprezentację zadań o najwyższych priorytetach.
+
+Ze względu na uproszczenia przyjęte w symulatorze pojedyncze zadanie powinno być wykonywalne jako jeden nieprzerwany blok pracy. Z tego powodu wszystkie zadania o czasie trwania przekraczającym 3 godziny dzielono na krótsze podzadania. Czas pojedynczego fragmentu losowano z wartości od $0{,}5$ do $3$ godzin, z krokiem $0{,}5$ godziny, z uwzględnieniem pozostałego czasu zadania. Dodatkowo część zadań trwających nie więcej niż jedną godzinę skracano do wartości odpowiadających około 5, 10, 15 lub 30 minutom. Zabieg ten zwiększał zróżnicowanie długości zadań i pozwalał uzyskać bardziej realistyczną mieszankę krótkich oraz dłuższych aktywności.
+
+\subsection{Podział danych na fazy eksperymentu}
+
+Po oczyszczeniu i augmentacji pula zadań została losowo podzielona na cztery części odpowiadające kolejnym fazom eksperymentu: \textit{pretrain}, \textit{finetune}, \textit{online} oraz \textit{disruptions}. Docelowo do fazy \textit{pretrain} przypisano $60\%$ zadań, do fazy \textit{finetune} $20\%$, do fazy \textit{online} $10\%$, natomiast pozostałe zadania przeznaczono do fazy \textit{disruptions}.
+
+W obrębie każdej fazy zadania dzielono na kolejne podzbiory reprezentujące jeden eksperymentalny miesiąc pracy. Przyjęto, że pojedynczy taki okres obejmuje 20 dni roboczych. Podczas tworzenia podzbiorów dążono do zachowania rozkładu priorytetów wynoszącego odpowiednio: $10\%$ zadań \textit{urgent}, $20\%$ \textit{high}, $45\%$ \textit{medium} oraz $25\%$ \textit{low}. Łączny czas pracy wynikający z zadań w jednym podzbiorze powinien mieścić się w przedziale od 90 do 120 godzin. Zakres ten pozostawia część dostępnego czasu roboczego jako bufor, a jednocześnie zapewnia wystarczające obciążenie do oceny jakości tworzonych harmonogramów.
+
+Dla faz \textit{pretrain} oraz \textit{finetune} terminy wykonania wszystkich podzbiorów generowano w obrębie lutego 2027 roku, rozpoczynając od 1 lutego 2027 r. Data ta przypada na poniedziałek, a analizowany okres obejmuje 20 kolejnych dni roboczych. W przypadku tych dwóch faz przesuwanie terminów pomiędzy kolejnymi podzbiorami było wyłączone, ponieważ ich celem było przede wszystkim uczenie modeli na wielu niezależnych wariantach miesięcznego planu.
+
+W fazie \textit{online} pierwszy okres rozpoczynał się 4 stycznia 2027 r. Kolejne podzbiory były przesuwane o cztery tygodnie, dzięki czemu tworzyły sekwencję następujących po sobie okresów eksperymentalnych. Terminy zadań losowano wyłącznie spośród 20 dni roboczych danego okresu, natomiast godziny terminów były losowane w przedziale dnia roboczego. Większą wagę przypisano godzinom około południa oraz końca dnia, co pozwalało uniknąć całkowicie jednostajnego rozkładu terminów.
+
+Faza \textit{disruptions} była konstruowana analogicznie do fazy \textit{online}, lecz rozpoczynała się bezpośrednio po zakończeniu części online. Jej zadaniem było sprawdzenie odporności planowania na nagłe zmiany wymagające modyfikacji wcześniej przygotowanego harmonogramu.
+
+\subsection{Synteza zadań zaburzających}
+
+Dla fazy \textit{disruptions} wygenerowano dodatkową klasę zadań oznaczonych jako \textit{disruptor}. Zadania te nie są dostępne podczas początkowego tworzenia planu, lecz pojawiają się dopiero w trakcie symulacji. Ich rolą jest odwzorowanie nagłych zdarzeń, takich jak pilna wiadomość od klienta, nieplanowane spotkanie, awaria systemu, konieczność wykonania szybkiej korekty lub inna czynność wymagająca krótkiego czasu reakcji.
+
+Dla każdej podfazy generowano ustaloną liczbę zadań zaburzających. Ich czas trwania mieścił się w zakresie od około 5 do 60 minut. Priorytet przyjmował wyłącznie wartości \textit{high} lub \textit{urgent}, z większym prawdopodobieństwem wystąpienia priorytetu \textit{urgent}. Większość zadań tego typu należała do kategorii \textit{communication} lub \textit{routine}, natomiast rzadziej generowano zadania techniczne, analityczne i kreatywne.
+
+Kluczowym parametrem zadań zaburzających jest czas ich pojawienia się w systemie. Moment ten wyznaczano jako 30, 45, 60, 90 lub 120 minut przed terminem wykonania zadania. Powoduje to konieczność ponownej optymalizacji harmonogramu przy bardzo ograniczonym czasie reakcji. Założeniem eksperymentu jest przy tym nie tylko umieszczenie nowego zadania w planie, lecz również ograniczenie skali zmian w pozostałej części harmonogramu. Pozwala to badać stabilność planera i jego zdolność do reagowania na lokalne zakłócenia bez całkowitej reorganizacji wcześniej przygotowanego planu.
+
+\subsection{Sposób reprezentacji danych}
+
+Ostatecznie profil użytkownika obejmował chronotyp, pięć poziomów kompetencji, prawdopodobieństwo prokrastynacji, godziny rozpoczęcia i zakończenia pracy oraz informację o przynależności do zbioru treningowego. Zadanie było natomiast opisane przez nazwę, przewidywany czas wykonania, priorytet, typ, termin realizacji, fazę eksperymentu i numer podfazy. W przypadku zadań zaburzających przechowywano dodatkowo informację o tym, że zadanie jest zakłóceniem, oraz moment jego wprowadzenia do planu.
+
+Na etapie generowania danych nie tworzono jawnie zadań reprezentujących przerwy. Wynikało to z założenia, że długość, liczba oraz rozmieszczenie przerw powinny wynikać z działania badanych algorytmów, a nie być narzucone przez zbiór wejściowy. W modelu danych przewidziano jednak możliwość oznaczenia elementu jako przerwy, dzięki czemu harmonogram może reprezentować zarówno zadania robocze, jak i przerwy wygenerowane już na etapie planowania.
